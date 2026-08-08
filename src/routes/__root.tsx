@@ -99,7 +99,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
-
+    scripts: [
+      { src: "https://fast.wistia.com/player.js", async: true },
+      { src: "https://fast.wistia.com/embed/w2wvq5xohp.js", async: true, type: "module" },
+      { children: PIXEL_SCRIPT },
+      { children: UTM_SCRIPT },
+    ],
   }),
   shellComponent: RootShell,
   component: RootComponent,
