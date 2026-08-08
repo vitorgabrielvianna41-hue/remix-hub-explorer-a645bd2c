@@ -1,3 +1,4 @@
+import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState, type CSSProperties, type ReactNode } from "react";
 
 import { CONFIG } from "@/config/landing";
@@ -20,9 +21,28 @@ import depo5 from "@/assets/depo-marmorista-5.jpg";
 const criadorImg = carlosEduardo.url;
 const depoPhotos = [depo1, depo2, depo3, depo4, depo5];
 
-export default function LandingPage() {
+const TITLE = "OrçaMarmoraria Pro — Orçamento de marmorista em PDF";
+const DESCRIPTION =
+  "App para marmoristas calcularem chapa, corte, acabamento e mão de obra e gerarem orçamento profissional em PDF pelo WhatsApp — direto do celular.";
+
+export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: TITLE },
+      { name: "description", content: DESCRIPTION },
+      { property: "og:title", content: TITLE },
+      { property: "og:description", content: DESCRIPTION },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
+  component: LandingPage,
+});
+
+function LandingPage() {
   return <Landing />;
 }
+
 
 /* -------- BLACK / YELLOW PALETTE -------- */
 const C = {
