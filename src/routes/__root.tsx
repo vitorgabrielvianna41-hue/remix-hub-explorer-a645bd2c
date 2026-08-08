@@ -11,6 +11,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { PIXEL_SCRIPT, UTM_SCRIPT } from "../lib/tracking";
 
 function NotFoundComponent() {
   return (
