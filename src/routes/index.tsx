@@ -6,7 +6,7 @@ import { CONFIG } from "@/config/landing";
 import appNovo from "@/assets/marmoraria-step1.jpg";
 import appCustos from "@/assets/marmoraria-step2.jpg";
 import appResultado from "@/assets/marmoraria-step3.jpg";
-import carlosEduardo from "@/assets/carlos-eduardo.png.asset.json";
+import carlosEduardo from "@/assets/carlos-eduardo-novo.png.asset.json";
 import bonus1Img from "@/assets/marmoraria-bonus-1.jpg";
 import bonus2Img from "@/assets/marmoraria-bonus-2.jpg";
 import bonus3Img from "@/assets/marmoraria-bonus-3.jpg";
@@ -283,7 +283,7 @@ function Hero() {
               filter: "drop-shadow(0 30px 60px rgba(0,0,0,0.7))",
             }}
             dangerouslySetInnerHTML={{
-              __html: `<style>wistia-player[media-id='r2nj1nwkma']:not(:defined){background:center/contain no-repeat url('https://fast.wistia.com/embed/medias/r2nj1nwkma/swatch');display:block;filter:blur(5px);padding-top:177.78%;}</style><wistia-player media-id="r2nj1nwkma" aspect="0.5625"></wistia-player>`,
+              __html: `<style>wistia-player[media-id='w2wvq5xohp']:not(:defined){background:center/contain no-repeat url('https://fast.wistia.com/embed/medias/w2wvq5xohp/swatch');display:block;filter:blur(5px);padding-top:177.78%;}</style><wistia-player media-id="w2wvq5xohp" aspect="0.5625"></wistia-player>`,
             }}
           />
         </div>
