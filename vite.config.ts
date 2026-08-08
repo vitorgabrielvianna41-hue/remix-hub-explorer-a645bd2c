@@ -7,6 +7,7 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
+  nitro: false,
   tanstackStart: {
     // Static landing page: prerender "/" so the build output in dist/client can be
     // hosted as plain static files (Netlify, etc.) without a server runtime.
