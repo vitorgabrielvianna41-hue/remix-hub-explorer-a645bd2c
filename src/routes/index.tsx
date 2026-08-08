@@ -132,7 +132,9 @@ function SalesPopup() {
   }, [sales.length]);
 
   const s = sales[idx];
+  if (!s) return null;
   return (
+
     <div
       style={{
         position: "fixed",
