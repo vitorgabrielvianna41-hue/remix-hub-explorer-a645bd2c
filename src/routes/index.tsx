@@ -18,7 +18,7 @@ import depo3 from "@/assets/depo-marmorista-3.jpg";
 import depo4 from "@/assets/depo-marmorista-4.jpg";
 import depo5 from "@/assets/depo-marmorista-5.jpg";
 
-const criadorImg = carlosEduardo.url;
+const criadorImg = carlosEduardo;
 const depoPhotos = [depo1, depo2, depo3, depo4, depo5];
 
 const TITLE = "OrçaMarmoraria Pro — Orçamento de marmorista em PDF";
