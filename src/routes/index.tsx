@@ -6,7 +6,7 @@ import { CONFIG } from "@/config/landing";
 import appNovo from "@/assets/marmoraria-step1.jpg";
 import appCustos from "@/assets/marmoraria-step2.jpg";
 import appResultado from "@/assets/marmoraria-step3.jpg";
-import carlosEduardo from "@/assets/carlos-eduardo-novo.png.asset.json";
+import carlosEduardo from "@/assets/carlos-eduardo-novo.png";
 import bonus1Img from "@/assets/marmoraria-bonus-1.jpg";
 import bonus2Img from "@/assets/marmoraria-bonus-2.jpg";
 import bonus3Img from "@/assets/marmoraria-bonus-3.jpg";
