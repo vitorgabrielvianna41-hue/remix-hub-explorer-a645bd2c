@@ -6,7 +6,7 @@ import { CONFIG } from "@/config/landing";
 import appNovo from "@/assets/marmoraria-step1.jpg";
 import appCustos from "@/assets/marmoraria-step2.jpg";
 import appResultado from "@/assets/marmoraria-step3.jpg";
-import carlosEduardo from "@/assets/carlos-eduardo-novo.png.asset.json";
+import carlosEduardo from "@/assets/carlos-eduardo-novo.png";
 import bonus1Img from "@/assets/marmoraria-bonus-1.jpg";
 import bonus2Img from "@/assets/marmoraria-bonus-2.jpg";
 import bonus3Img from "@/assets/marmoraria-bonus-3.jpg";
@@ -18,7 +18,7 @@ import depo3 from "@/assets/depo-marmorista-3.jpg";
 import depo4 from "@/assets/depo-marmorista-4.jpg";
 import depo5 from "@/assets/depo-marmorista-5.jpg";
 
-const criadorImg = carlosEduardo.url;
+const criadorImg = carlosEduardo;
 const depoPhotos = [depo1, depo2, depo3, depo4, depo5];
 
 const TITLE = "OrçaMarmoraria Pro — Orçamento de marmorista em PDF";
